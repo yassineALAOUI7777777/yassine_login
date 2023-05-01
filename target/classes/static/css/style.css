@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(128, 128, 128);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+form {
+  background-color: rgb(192, 192, 192);
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 100px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 8px ;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: rgb(192, 192, 192);
+  border: none;
+  border-radius: 5px;
+  color: rgb(128, 128, 192);
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+  width: 100%;
+}

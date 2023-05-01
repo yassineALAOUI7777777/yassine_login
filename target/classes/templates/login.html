@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title> Yassine's Authentification page</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <style>
+		body{
+			background-image : url('			https://i.pinimg.com/564x/0b/ce/a2/0bcea29c7924d9a578d3115866de2ead.jpg');
+			
+
+        
+		}
+	</style>
+</head>
+<body>
+<h1> Welcome  to my authentification page</h1>
+<form th:action="@{/login}" method="post">
+	
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"/>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"/>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+   
+   
+</form>
+</body>
+    <footer>
+		 <div>
+        <label for="By me "></label>
+       
+    </div>
+	</footer>
+</html>
